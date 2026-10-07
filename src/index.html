@@ -1,0 +1,170 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover">
+<meta http-equiv="Content-Security-Policy" content="{{CSP}}">
+<title>Hazepad · Launchpad on Solana</title>
+<meta name="description" content="Hazepad is a launchpad on Solana. Each trade feeds proof-of-work mining, and the output is paid to holders.">
+<meta name="theme-color" content="{{THEME}}">
+<meta property="og:title" content="Hazepad · Launchpad on Solana">
+<meta property="og:description" content="Feed trades into proof-of-work mining. Holders collect the output.">
+<meta property="og:type" content="website">
+<meta property="og:url" content="https://{{DOMAIN}}/">
+<meta property="og:image" content="https://{{DOMAIN}}/assets/og.jpg">
+<meta name="twitter:card" content="summary_large_image">
+<link rel="icon" type="image/svg+xml" href="favicon.svg">
+<link rel="apple-touch-icon" href="assets/apple-touch-icon.png">
+<link rel="preload" href="fonts/Jersey10-400.woff2" as="font" type="font/woff2" crossorigin>
+<link rel="stylesheet" href="css/app.css">
+<script type="application/json" id="register">{{REGISTER_JSON}}</script>
+<script type="module" src="js/main.js"></script>
+</head>
+<body>
+<div class="progress" id="progress" aria-hidden="true"></div>
+
+<div class="topstack">
+  <header class="top">
+    <a class="brand" href="#top" aria-label="Hazepad, back to top"><img src="assets/logo-ink-128.png" width="34" height="34" alt=""><span>HAZEPAD</span></a>
+    <nav class="nav" aria-label="Sections"><a href="#toolkit">Toolkit</a><a href="#flow">Flow</a><a href="#sim">Simulator</a><a href="#live">Live</a><a href="#launch">Launch</a></nav>
+    <div class="top-right">
+      <span class="pill" id="health" data-state="connecting" role="status" aria-live="polite"><i class="dot" aria-hidden="true"></i><span class="pill-t" data-health-text>Connecting</span></span>
+      <div class="socials">{{SOCIAL}}</div>
+    </div>
+  </header>
+  <div class="casl">{{CA_TOP}}</div>
+</div>
+
+<main>
+<section class="hero dark" id="top">
+  <canvas id="rain" aria-hidden="true"></canvas>
+  <div class="hero-art" data-depth="0.16" aria-hidden="true"><img src="assets/mine.webp" width="910" height="900" alt=""></div>
+  <div class="hero-shade" aria-hidden="true"></div>
+  <div class="copy" data-depth="-0.05">
+    <p class="kicker"><i></i>LAUNCHPAD ON SOLANA</p>
+    <h1>SEND FEES DOWN.<span>BRING HASH UP.</span></h1>
+    <p class="lede">Hazepad sends a cut of each swap into proof-of-work mining. You choose the routes, size every slice, and holders collect whatever the rigs return.</p>
+    <div class="cta"><a class="btn" href="#launch">▶ OPEN A SHAFT</a><a class="btn alt" href="#flow">SEE THE FLOW</a></div>
+  </div>
+  <aside class="plan panel" id="plan" aria-label="Route map">
+    <h3>YOUR ROUTE MAP <b id="pTot">100%</b></h3>
+    <div class="hint" id="pHint">Four routes at most · slices fill the full 100%</div>
+    <div id="pRows"></div>
+    <div class="bar" id="pBar" aria-hidden="true"></div>
+  </aside>
+  <div class="tiles" aria-label="Network facts">{{TILES}}</div>
+</section>
+
+<div class="edge d2l" aria-hidden="true"></div>
+
+<section class="sec light" id="toolkit"><div class="wrap panel">
+  <span class="lvl"><i></i>LAYER 01</span>
+  <h2 class="rv">THE TOOLKIT.</h2>
+  <p class="lead rv">Five parts that move a trade from a swap on Solana to a payout in a holder's wallet.</p>
+  <div class="cards">
+    <article class="card rv"><div class="card-h"><canvas class="px" width="11" height="11" data-icon="gate" aria-hidden="true"></canvas><div><b>Fee Gate</b><small>MODULE 01</small></div></div><p>Catches the creator cut of each swap as it settles, so nothing sits idle between trade and route.</p></article>
+    <article class="card rv"><div class="card-h"><canvas class="px" width="11" height="11" data-icon="map" aria-hidden="true"></canvas><div><b>Route Map</b><small>MODULE 02</small></div></div><p>Your split lives here. Up to four routes, shares in whole steps, always adding to a full hundred.</p></article>
+    <article class="card rv"><div class="card-h"><canvas class="px" width="11" height="11" data-icon="rig" aria-hidden="true"></canvas><div><b>Rig Desk</b><small>MODULE 03</small></div></div><p>Turns routed funds into hash: rented capacity, machines you own, or spot power from open markets.</p></article>
+    <article class="card rv"><div class="card-h"><canvas class="px" width="11" height="11" data-icon="ledger" aria-hidden="true"></canvas><div><b>Payout Ledger</b><small>MODULE 04</small></div></div><p>Records what the rigs return and posts the tally where anyone can check it.</p></article>
+    <article class="card rv"><div class="card-h"><canvas class="px" width="11" height="11" data-icon="weights" aria-hidden="true"></canvas><div><b>Holder Weights</b><small>MODULE 05</small></div></div><p>Reads balances at each payout snapshot and divides the haul in proportion.</p></article>
+  </div>
+</div></section>
+
+<div class="edge l2d" aria-hidden="true"></div>
+
+<section class="sec dark" id="flow"><div class="wrap panel">
+  <span class="lvl"><i></i>LAYER 02</span>
+  <h2 class="rv">FROM SWAP TO PAYOUT.</h2>
+  <div class="path">
+    <div class="step rv"><div class="ic"><canvas class="px" width="11" height="11" data-icon="swap" aria-hidden="true"></canvas></div><div class="n">01</div><h4>A TRADE SETTLES</h4><p>Each swap of a launched token leaves a small creator cut behind.</p></div>
+    <div class="step rv"><div class="ic"><canvas class="px" width="11" height="11" data-icon="map" aria-hidden="true"></canvas></div><div class="n">02</div><h4>THE CUT IS SLICED</h4><p>Your route map divides it by the shares you chose, to the percent.</p></div>
+    <div class="step rv"><div class="ic"><canvas class="px" width="11" height="11" data-icon="rig" aria-hidden="true"></canvas></div><div class="n">03</div><h4>RIGS START WORKING</h4><p>Capacity gets leased, or you run your own machines, and what comes out is proof-of-work coin.</p></div>
+    <div class="step rv"><div class="ic"><canvas class="px" width="11" height="11" data-icon="ledger" aria-hidden="true"></canvas></div><div class="n">04</div><h4>HOLDERS COLLECT</h4><p>Every payout is weighed by what each wallet held at snapshot time.</p></div>
+  </div>
+</div></section>
+
+<div class="edge d2l" aria-hidden="true"></div>
+
+<section class="sec light" id="sim"><div class="wrap panel">
+  <span class="lvl"><i></i>LAYER 03</span>
+  <h2 class="rv">ROUTE SIMULATOR.</h2>
+  <div class="sim">
+    <div>
+      <label class="fld-l" for="vol">Trading turnover per day</label>
+      <div class="big" id="cVol">$224,000</div>
+      <input type="range" id="vol" min="0" max="100" value="45">
+      <label class="fld-l" for="cut">Creator cut on each trade</label>
+      <div class="big" id="cCut">1.00%</div>
+      <input type="range" id="cut" min="1" max="12" value="4">
+      <p class="fine">An illustration. Volume and cut are your own inputs, and no live rate is assumed. The split follows the route map above.</p>
+    </div>
+    <div class="out" id="simOut" aria-live="polite"></div>
+  </div>
+</div></section>
+
+<div class="edge l2d" aria-hidden="true"></div>
+
+<section class="sec dark" id="live"><div class="wrap panel">
+  <span class="lvl"><i></i>LAYER 04</span>
+  <h2 class="rv">THE CHAIN, LIVE.</h2>
+  <div class="ticker" aria-label="Live chain readout">
+    <div><small>Current slot</small><b data-live="slot" class="mono">—</b></div>
+    <div><small>Chain value locked</small><b data-live="tvl">—</b></div>
+    <div><small>Link</small><b data-health-text>Connecting</b></div>
+  </div>
+  <div class="tabs" role="tablist" aria-label="Live boards">
+    <button class="tab" role="tab" id="t-pairs" aria-selected="true" aria-controls="p-pairs" type="button">TOP PAIRS</button>
+    <button class="tab" role="tab" id="t-pulse" aria-selected="false" aria-controls="p-pulse" tabindex="-1" type="button">CHAIN PULSE</button>
+  </div>
+  <div role="tabpanel" id="p-pairs" aria-labelledby="t-pairs" class="tabpanel">
+    <div class="board" id="board" aria-busy="true">
+      <div class="board-h" aria-hidden="true"><span></span><span>Pair</span><span>Price</span><span>24h volume</span></div>
+      <div id="boardRows"></div>
+    </div>
+    <p class="fine">Solana pairs ranked by 24 hour volume. Source: DexScreener. A dash means the feed stayed silent.</p>
+  </div>
+  <div role="tabpanel" id="p-pulse" aria-labelledby="t-pulse" class="tabpanel" hidden>
+    <div class="stats">
+      <div><small>Current slot</small><b data-live="slot" class="mono">—</b></div>
+      <div><small>Chain value locked</small><b data-live="tvl">—</b></div>
+      <div><small>Link state</small><b data-health-text>Connecting</b></div>
+      <div><small>Pairs tracked</small><b data-live="pairs">—</b></div>
+    </div>
+    <p class="fine">Slot from the public Solana RPC, value from DefiLlama. Feeds pause while this tab is hidden and back off when they fail.</p>
+  </div>
+</div></section>
+
+<div class="edge d2l" aria-hidden="true"></div>
+
+<section class="sec light" id="launch"><div class="wrap panel">
+  <span class="lvl"><i></i>LAYER 05</span>
+  <h2 class="rv">OPEN A SHAFT.</h2>
+  <div class="launch">
+    <form id="draftForm" novalidate>
+      <label class="fld"><span>Token name</span><input id="cName" maxlength="32" placeholder="Obsidian Lantern" autocomplete="off"></label>
+      <label class="fld"><span>Symbol</span><input id="cTick" maxlength="10" placeholder="LANT" autocomplete="off"></label>
+      <button class="btn" id="draftBtn" type="submit">▶ BUILD MY DRAFT</button>
+      <div class="err" id="err" role="alert"></div>
+      <div class="tkt" id="tkt" hidden><b>DRAFT READY</b><code id="draftText"></code><button class="btn mini" id="copyDraft" type="button">COPY DRAFT</button></div>
+    </form>
+    <div class="sum" id="sum"></div>
+  </div>
+  <p class="fine">Launching goes live with the contract. Until then the draft stays in this tab; nothing is sent anywhere.</p>
+</div></section>
+</main>
+
+<div class="edge l2d" aria-hidden="true"></div>
+
+<section class="coin dark" id="coin">
+  <div><div class="g">$HAZE<span>PAD</span></div><p>Native token of the protocol.</p></div>
+  <div class="coin-r">{{CA_COIN}}<a class="btn" href="#launch">▶ OPEN A SHAFT</a></div>
+</section>
+
+<footer>
+  <a class="brand" href="#top" aria-label="Hazepad, back to top"><img src="assets/logo-64.png" width="34" height="34" alt=""><span>HAZEPAD</span></a>
+  <p>Mining output can land under what was routed in, and it swings with coin prices, network difficulty and variance in block finds. Nothing on this page counts as investment guidance. Slots are read from the public Solana RPC, chain value from DefiLlama, pairs from DexScreener.</p>
+  <nav aria-label="Footer"><a href="#toolkit">Toolkit</a><a href="#sim">Simulator</a><a href="#launch">Launch</a></nav>
+</footer>
+<noscript><p class="noscript">Live boards and the route map need JavaScript.</p></noscript>
+</body>
+</html>

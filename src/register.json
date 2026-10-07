@@ -1,0 +1,8 @@
+{
+  "domain":   { "id": "domain",   "label": "Domain",   "state": "stated", "value": "hazepad.fun", "source": "client brief 2026-10-07" },
+  "chain":    { "id": "chain",    "label": "Chain",    "state": "stated", "value": "Solana mainnet", "source": "client statement 2026-10-07 batch-level" },
+  "rpc":      { "id": "rpc",      "label": "RPC",      "state": "stated", "url": "https://solana-rpc.publicnode.com", "source": "client statement 2026-10-07 batch-level" },
+  "contract": { "id": "contract", "label": "Contract", "state": "absent", "value": null, "format": "solana-base58-32-44", "source": "client brief 2026-10-07: no address yet" },
+  "x":        { "id": "x",        "label": "X",        "state": "absent", "url": null, "source": "client brief 2026-10-07: no account yet" },
+  "github":   { "id": "github",   "label": "GitHub",   "state": "absent", "url": null, "source": "client brief 2026-10-07: no repository yet" }
+}

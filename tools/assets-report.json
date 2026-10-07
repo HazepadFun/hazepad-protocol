@@ -1,0 +1,806 @@
+[
+ {
+  "file": "brand\\LOGO HAZEPAD JPG.jpg.jpeg",
+  "bytes": 197277,
+  "container": "JPEG",
+  "meta": {
+   "w": 2000,
+   "h": 2000,
+   "channels": 3,
+   "hasAlpha": false,
+   "space": "srgb"
+  },
+  "alphaHist8": [
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   4000000
+  ],
+  "pureBlackTransparent": 0,
+  "kmeans": [
+   {
+    "hex": "#1C1411",
+    "share": 0.906,
+    "srcPixelIndex": 0,
+    "xy": [
+     0,
+     0
+    ]
+   },
+   {
+    "hex": "#FDFDFD",
+    "share": 0.091,
+    "srcPixelIndex": 34030,
+    "xy": [
+     990,
+     561
+    ]
+   },
+   {
+    "hex": "#BCB7B3",
+    "share": 0.001,
+    "srcPixelIndex": 62336,
+    "xy": [
+     1088,
+     1028
+    ]
+   },
+   {
+    "hex": "#433937",
+    "share": 0.001,
+    "srcPixelIndex": 43493,
+    "xy": [
+     1269,
+     717
+    ]
+   },
+   {
+    "hex": "#786D6B",
+    "share": 0.001,
+    "srcPixelIndex": 35907,
+    "xy": [
+     931,
+     592
+    ]
+   },
+   {
+    "hex": "#1B1310",
+    "share": 0,
+    "srcPixelIndex": 33666,
+    "xy": [
+     978,
+     555
+    ]
+   }
+  ]
+ },
+ {
+  "file": "brand\\LOGO HAZEPAD PNG...png",
+  "bytes": 267796,
+  "container": "PNG",
+  "ihdr": {
+   "w": 2000,
+   "h": 2000,
+   "bitDepth": 8,
+   "colourType": 6,
+   "interlace": 0
+  },
+  "meta": {
+   "w": 2000,
+   "h": 2000,
+   "channels": 4,
+   "hasAlpha": true,
+   "space": "srgb"
+  },
+  "alphaHist8": [
+   3626249,
+   2494,
+   1743,
+   1908,
+   1303,
+   1767,
+   2849,
+   361687
+  ],
+  "pureBlackTransparent": 3619308,
+  "kmeans": [
+   {
+    "hex": "#FDFDFD",
+    "share": 0.589,
+    "srcPixelIndex": 14,
+    "xy": [
+     462,
+     0
+    ]
+   },
+   {
+    "hex": "#FEFEFE",
+    "share": 0.277,
+    "srcPixelIndex": 2,
+    "xy": [
+     66,
+     0
+    ]
+   },
+   {
+    "hex": "#FFFEFF",
+    "share": 0.054,
+    "srcPixelIndex": 130,
+    "xy": [
+     290,
+     2
+    ]
+   },
+   {
+    "hex": "#F9F7F7",
+    "share": 0.051,
+    "srcPixelIndex": 8786,
+    "xy": [
+     1938,
+     144
+    ]
+   },
+   {
+    "hex": "#D4BFBF",
+    "share": 0.016,
+    "srcPixelIndex": 3663,
+    "xy": [
+     879,
+     60
+    ]
+   },
+   {
+    "hex": "#EDDEDB",
+    "share": 0.013,
+    "srcPixelIndex": 180,
+    "xy": [
+     1940,
+     2
+    ]
+   }
+  ]
+ },
+ {
+  "file": "brand\\LOGO HAZEPAD PNG.png",
+  "bytes": 403250,
+  "container": "PNG",
+  "ihdr": {
+   "w": 2000,
+   "h": 2000,
+   "bitDepth": 8,
+   "colourType": 6,
+   "interlace": 0
+  },
+  "meta": {
+   "w": 2000,
+   "h": 2000,
+   "channels": 4,
+   "hasAlpha": true,
+   "space": "srgb"
+  },
+  "alphaHist8": [
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   4000000
+  ],
+  "pureBlackTransparent": 0,
+  "kmeans": [
+   {
+    "hex": "#1C1411",
+    "share": 0.906,
+    "srcPixelIndex": 0,
+    "xy": [
+     0,
+     0
+    ]
+   },
+   {
+    "hex": "#FDFDFD",
+    "share": 0.091,
+    "srcPixelIndex": 34030,
+    "xy": [
+     990,
+     561
+    ]
+   },
+   {
+    "hex": "#2C2320",
+    "share": 0.001,
+    "srcPixelIndex": 56745,
+    "xy": [
+     585,
+     936
+    ]
+   },
+   {
+    "hex": "#BCB7B6",
+    "share": 0.001,
+    "srcPixelIndex": 52042,
+    "xy": [
+     1386,
+     858
+    ]
+   },
+   {
+    "hex": "#4F4643",
+    "share": 0.001,
+    "srcPixelIndex": 65295,
+    "xy": [
+     735,
+     1077
+    ]
+   },
+   {
+    "hex": "#817774",
+    "share": 0.001,
+    "srcPixelIndex": 67244,
+    "xy": [
+     1052,
+     1109
+    ]
+   }
+  ]
+ },
+ {
+  "file": "reference\\HAZEPAD 1.jpg.jpeg",
+  "bytes": 246168,
+  "container": "JPEG",
+  "meta": {
+   "w": 1600,
+   "h": 900,
+   "channels": 3,
+   "hasAlpha": false,
+   "space": "srgb"
+  },
+  "alphaHist8": [
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   1440000
+  ],
+  "pureBlackTransparent": 0,
+  "kmeans": [
+   {
+    "hex": "#170C06",
+    "share": 0.457,
+    "srcPixelIndex": 7513,
+    "xy": [
+     556,
+     56
+    ]
+   },
+   {
+    "hex": "#3B200F",
+    "share": 0.165,
+    "srcPixelIndex": 8757,
+    "xy": [
+     1084,
+     65
+    ]
+   },
+   {
+    "hex": "#72401F",
+    "share": 0.138,
+    "srcPixelIndex": 90998,
+    "xy": [
+     776,
+     682
+    ]
+   },
+   {
+    "hex": "#E3CFB6",
+    "share": 0.119,
+    "srcPixelIndex": 35300,
+    "xy": [
+     1200,
+     264
+    ]
+   },
+   {
+    "hex": "#D08D3F",
+    "share": 0.09,
+    "srcPixelIndex": 54923,
+    "xy": [
+     1476,
+     411
+    ]
+   },
+   {
+    "hex": "#0C0402",
+    "share": 0.03,
+    "srcPixelIndex": 27570,
+    "xy": [
+     1240,
+     206
+    ]
+   }
+  ]
+ },
+ {
+  "file": "reference\\HAZEPAD 2.jpg.jpeg",
+  "bytes": 244193,
+  "container": "JPEG",
+  "meta": {
+   "w": 1600,
+   "h": 900,
+   "channels": 3,
+   "hasAlpha": false,
+   "space": "srgb"
+  },
+  "alphaHist8": [
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   1440000
+  ],
+  "pureBlackTransparent": 0,
+  "kmeans": [
+   {
+    "hex": "#160B07",
+    "share": 0.47,
+    "srcPixelIndex": 1422,
+    "xy": [
+     1064,
+     10
+    ]
+   },
+   {
+    "hex": "#3B200F",
+    "share": 0.165,
+    "srcPixelIndex": 8757,
+    "xy": [
+     1084,
+     65
+    ]
+   },
+   {
+    "hex": "#72401F",
+    "share": 0.139,
+    "srcPixelIndex": 90998,
+    "xy": [
+     776,
+     682
+    ]
+   },
+   {
+    "hex": "#DBD0CA",
+    "share": 0.101,
+    "srcPixelIndex": 4781,
+    "xy": [
+     1372,
+     35
+    ]
+   },
+   {
+    "hex": "#D09340",
+    "share": 0.094,
+    "srcPixelIndex": 59459,
+    "xy": [
+     1508,
+     445
+    ]
+   },
+   {
+    "hex": "#0C0402",
+    "share": 0.03,
+    "srcPixelIndex": 27570,
+    "xy": [
+     1240,
+     206
+    ]
+   }
+  ]
+ },
+ {
+  "file": "reference\\HAZEPAD 3.jpg.jpeg",
+  "bytes": 244957,
+  "container": "JPEG",
+  "meta": {
+   "w": 1600,
+   "h": 900,
+   "channels": 3,
+   "hasAlpha": false,
+   "space": "srgb"
+  },
+  "alphaHist8": [
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   1440000
+  ],
+  "pureBlackTransparent": 0,
+  "kmeans": [
+   {
+    "hex": "#170C06",
+    "share": 0.469,
+    "srcPixelIndex": 7513,
+    "xy": [
+     556,
+     56
+    ]
+   },
+   {
+    "hex": "#3B200F",
+    "share": 0.166,
+    "srcPixelIndex": 8757,
+    "xy": [
+     1084,
+     65
+    ]
+   },
+   {
+    "hex": "#72401F",
+    "share": 0.138,
+    "srcPixelIndex": 90998,
+    "xy": [
+     776,
+     682
+    ]
+   },
+   {
+    "hex": "#D6CDBE",
+    "share": 0.102,
+    "srcPixelIndex": 4912,
+    "xy": [
+     1344,
+     36
+    ]
+   },
+   {
+    "hex": "#D09340",
+    "share": 0.094,
+    "srcPixelIndex": 59459,
+    "xy": [
+     1508,
+     445
+    ]
+   },
+   {
+    "hex": "#0C0402",
+    "share": 0.031,
+    "srcPixelIndex": 27570,
+    "xy": [
+     1240,
+     206
+    ]
+   }
+  ]
+ },
+ {
+  "file": "reference\\HAZEPAD 4.jpg.jpeg",
+  "bytes": 245917,
+  "container": "JPEG",
+  "meta": {
+   "w": 1600,
+   "h": 900,
+   "channels": 3,
+   "hasAlpha": false,
+   "space": "srgb"
+  },
+  "alphaHist8": [
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   1440000
+  ],
+  "pureBlackTransparent": 0,
+  "kmeans": [
+   {
+    "hex": "#170C06",
+    "share": 0.467,
+    "srcPixelIndex": 7513,
+    "xy": [
+     556,
+     56
+    ]
+   },
+   {
+    "hex": "#3B200F",
+    "share": 0.166,
+    "srcPixelIndex": 8757,
+    "xy": [
+     1084,
+     65
+    ]
+   },
+   {
+    "hex": "#72401F",
+    "share": 0.138,
+    "srcPixelIndex": 90998,
+    "xy": [
+     776,
+     682
+    ]
+   },
+   {
+    "hex": "#D6CDBE",
+    "share": 0.106,
+    "srcPixelIndex": 4912,
+    "xy": [
+     1344,
+     36
+    ]
+   },
+   {
+    "hex": "#D28F3E",
+    "share": 0.092,
+    "srcPixelIndex": 112782,
+    "xy": [
+     1384,
+     845
+    ]
+   },
+   {
+    "hex": "#0C0402",
+    "share": 0.031,
+    "srcPixelIndex": 27570,
+    "xy": [
+     1240,
+     206
+    ]
+   }
+  ]
+ },
+ {
+  "file": "reference\\HAZEPAD 5.jpg.jpeg",
+  "bytes": 244147,
+  "container": "JPEG",
+  "meta": {
+   "w": 1600,
+   "h": 900,
+   "channels": 3,
+   "hasAlpha": false,
+   "space": "srgb"
+  },
+  "alphaHist8": [
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   1440000
+  ],
+  "pureBlackTransparent": 0,
+  "kmeans": [
+   {
+    "hex": "#160B07",
+    "share": 0.474,
+    "srcPixelIndex": 1422,
+    "xy": [
+     1064,
+     10
+    ]
+   },
+   {
+    "hex": "#3B200F",
+    "share": 0.166,
+    "srcPixelIndex": 8757,
+    "xy": [
+     1084,
+     65
+    ]
+   },
+   {
+    "hex": "#72401F",
+    "share": 0.139,
+    "srcPixelIndex": 90998,
+    "xy": [
+     776,
+     682
+    ]
+   },
+   {
+    "hex": "#D79A41",
+    "share": 0.099,
+    "srcPixelIndex": 47847,
+    "xy": [
+     1364,
+     358
+    ]
+   },
+   {
+    "hex": "#D5D2CD",
+    "share": 0.092,
+    "srcPixelIndex": 70282,
+    "xy": [
+     184,
+     527
+    ]
+   },
+   {
+    "hex": "#0C0402",
+    "share": 0.031,
+    "srcPixelIndex": 27570,
+    "xy": [
+     1240,
+     206
+    ]
+   }
+  ]
+ },
+ {
+  "file": "reference\\HAZEPAD 6.jpg.jpeg",
+  "bytes": 244456,
+  "container": "JPEG",
+  "meta": {
+   "w": 1600,
+   "h": 900,
+   "channels": 3,
+   "hasAlpha": false,
+   "space": "srgb"
+  },
+  "alphaHist8": [
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   1440000
+  ],
+  "pureBlackTransparent": 0,
+  "kmeans": [
+   {
+    "hex": "#160B07",
+    "share": 0.469,
+    "srcPixelIndex": 1422,
+    "xy": [
+     1064,
+     10
+    ]
+   },
+   {
+    "hex": "#3A1F0E",
+    "share": 0.164,
+    "srcPixelIndex": 5822,
+    "xy": [
+     1064,
+     43
+    ]
+   },
+   {
+    "hex": "#703E1D",
+    "share": 0.141,
+    "srcPixelIndex": 49730,
+    "xy": [
+     1560,
+     372
+    ]
+   },
+   {
+    "hex": "#D0D6CA",
+    "share": 0.1,
+    "srcPixelIndex": 1848,
+    "xy": [
+     1376,
+     13
+    ]
+   },
+   {
+    "hex": "#D09340",
+    "share": 0.095,
+    "srcPixelIndex": 59459,
+    "xy": [
+     1508,
+     445
+    ]
+   },
+   {
+    "hex": "#0C0402",
+    "share": 0.031,
+    "srcPixelIndex": 27570,
+    "xy": [
+     1240,
+     206
+    ]
+   }
+  ]
+ },
+ {
+  "file": "reference\\SAMPUL HAZEPAD JPG.jpg.jpeg",
+  "bytes": 853349,
+  "container": "JPEG",
+  "meta": {
+   "w": 1500,
+   "h": 500,
+   "channels": 3,
+   "hasAlpha": false,
+   "space": "srgb"
+  },
+  "alphaHist8": [
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   750000
+  ],
+  "pureBlackTransparent": 0,
+  "kmeans": [
+   {
+    "hex": "#5A4C41",
+    "share": 0.222,
+    "srcPixelIndex": 48461,
+    "xy": [
+     1266,
+     193
+    ]
+   },
+   {
+    "hex": "#93C8E8",
+    "share": 0.209,
+    "srcPixelIndex": 2468,
+    "xy": [
+     1308,
+     9
+    ]
+   },
+   {
+    "hex": "#EFEEE9",
+    "share": 0.184,
+    "srcPixelIndex": 66326,
+    "xy": [
+     456,
+     265
+    ]
+   },
+   {
+    "hex": "#889794",
+    "share": 0.149,
+    "srcPixelIndex": 116131,
+    "xy": [
+     786,
+     464
+    ]
+   },
+   {
+    "hex": "#BFDEF0",
+    "share": 0.143,
+    "srcPixelIndex": 64759,
+    "xy": [
+     54,
+     259
+    ]
+   },
+   {
+    "hex": "#C89458",
+    "share": 0.094,
+    "srcPixelIndex": 88684,
+    "xy": [
+     1104,
+     354
+    ]
+   }
+  ]
+ }
+]

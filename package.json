@@ -1,0 +1,17 @@
+{
+  "name": "hazepad",
+  "version": "0.1.0",
+  "private": true,
+  "type": "module",
+  "description": "Hazepad: launchpad protocol on Solana. Static site, output in dist/.",
+  "license": "MIT",
+  "scripts": {
+    "assets": "node tools/assets.mjs",
+    "build": "node tools/build.mjs",
+    "gates": "node tools/gates.mjs"
+  },
+  "devDependencies": {
+    "jsdom": "^26.0.0",
+    "sharp": "^0.34.0"
+  }
+}

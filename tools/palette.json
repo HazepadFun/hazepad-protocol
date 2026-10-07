@@ -1,0 +1,93 @@
+{
+ "ink": {
+  "hex": "#1C1411",
+  "x": 0,
+  "y": 0,
+  "file": "brand/LOGO HAZEPAD PNG.png",
+  "note": "logo field, k-means cluster 1 (90.6% of pixels)"
+ },
+ "white": {
+  "hex": "#FDFDFD",
+  "x": 1006,
+  "y": 553,
+  "file": "brand/LOGO HAZEPAD PNG.png",
+  "note": "logo mark, k-means cluster 2"
+ },
+ "deep": {
+  "hex": "#170C06",
+  "x": 764,
+  "y": 17,
+  "file": "reference/HAZEPAD 1.jpg.jpeg",
+  "note": "art 1, k-means cluster 1 (45.7%)"
+ },
+ "brown": {
+  "hex": "#3B200F",
+  "x": 1083,
+  "y": 32,
+  "file": "reference/HAZEPAD 1.jpg.jpeg",
+  "note": "art 1, k-means cluster 2"
+ },
+ "clay": {
+  "hex": "#72401F",
+  "x": 777,
+  "y": 111,
+  "file": "reference/HAZEPAD 1.jpg.jpeg",
+  "note": "art 1, k-means cluster 3"
+ },
+ "paper": {
+  "hex": "#E3CFB6",
+  "x": 1200,
+  "y": 264,
+  "file": "reference/HAZEPAD 1.jpg.jpeg",
+  "note": "art 1, k-means cluster 4"
+ },
+ "amber": {
+  "hex": "#D08D3F",
+  "x": 1476,
+  "y": 411,
+  "file": "reference/HAZEPAD 1.jpg.jpeg",
+  "note": "art 1, k-means cluster 5"
+ },
+ "gold": {
+  "hex": "#FFDC5D",
+  "x": 1374,
+  "y": 16,
+  "file": "reference/HAZEPAD 1.jpg.jpeg",
+  "note": "art 1, headline colour, dominant saturated bucket"
+ },
+ "flame": {
+  "hex": "#F98A30",
+  "x": 1379,
+  "y": 21,
+  "file": "reference/HAZEPAD 1.jpg.jpeg",
+  "note": "art 1, ember bucket"
+ },
+ "sky": {
+  "hex": "#7FC2EC",
+  "x": 11,
+  "y": 0,
+  "file": "reference/SAMPUL HAZEPAD JPG.jpg.jpeg",
+  "note": "banner, k-means sky cluster"
+ },
+ "mist": {
+  "hex": "#BFDEF0",
+  "x": 54,
+  "y": 259,
+  "file": "reference/SAMPUL HAZEPAD JPG.jpg.jpeg",
+  "note": "banner, k-means pale sky cluster"
+ },
+ "stone": {
+  "hex": "#5A4C41",
+  "x": 1193,
+  "y": 81,
+  "file": "reference/SAMPUL HAZEPAD JPG.jpg.jpeg",
+  "note": "banner, k-means cluster 1"
+ },
+ "moss": {
+  "hex": "#567621",
+  "x": 833,
+  "y": 247,
+  "file": "reference/HAZEPAD 1.jpg.jpeg",
+  "note": "art 1, voxel tree canopy"
+ }
+}
